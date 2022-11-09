@@ -6,6 +6,229 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [33.0.1]
+### Uncategorized
+- test
+- 33.0.0 ([#949](https://github.com/Gudahtt/controllers/pull/949))
+- Bump actions ([#946](https://github.com/Gudahtt/controllers/pull/946))
+- Use cached dependencies and immutable install during publish ([#942](https://github.com/Gudahtt/controllers/pull/942))
+- Bump actions ([#944](https://github.com/Gudahtt/controllers/pull/944))
+- Remove outdated sections from README ([#937](https://github.com/Gudahtt/controllers/pull/937))
+- Lint, then build, then test ([#939](https://github.com/Gudahtt/controllers/pull/939))
+- Keep indent size of 2 for Markdown files ([#938](https://github.com/Gudahtt/controllers/pull/938))
+- 32.0.2 ([#940](https://github.com/Gudahtt/controllers/pull/940))
+- Fix occasional type errors when running tests ([#935](https://github.com/Gudahtt/controllers/pull/935))
+- 32.0.1 ([#933](https://github.com/Gudahtt/controllers/pull/933))
+- 32.0.0 ([#931](https://github.com/Gudahtt/controllers/pull/931))
+- 31.2.0 ([#924](https://github.com/Gudahtt/controllers/pull/924))
+- Improve PhishingController tests ([#916](https://github.com/Gudahtt/controllers/pull/916))
+- Add Git hook to run linter before pushing ([#898](https://github.com/Gudahtt/controllers/pull/898))
+- 31.1.0 ([#912](https://github.com/Gudahtt/controllers/pull/912))
+- 31.0.0 ([#906](https://github.com/Gudahtt/controllers/pull/906))
+- Fixed brittle TokenListController test ([#905](https://github.com/Gudahtt/controllers/pull/905))
+- Fixed tests to be deterministic ([#901](https://github.com/Gudahtt/controllers/pull/901))
+- Added debug mode for testing with debuggers ([#894](https://github.com/Gudahtt/controllers/pull/894))
+- 30.3.0 ([#892](https://github.com/Gudahtt/controllers/pull/892))
+- Update `is-release` filter ([#891](https://github.com/Gudahtt/controllers/pull/891))
+- update is-release filter ([#888](https://github.com/Gudahtt/controllers/pull/888))
+- use `MetaMask/action-is-release@v1.0` ([#883](https://github.com/Gudahtt/controllers/pull/883))
+- 30.2.0 ([#881](https://github.com/Gudahtt/controllers/pull/881))
+- turn check-release step into job ([#874](https://github.com/Gudahtt/controllers/pull/874))
+- check release ([#873](https://github.com/Gudahtt/controllers/pull/873))
+- Fix publishing configuration, closes #858 ([#863](https://github.com/Gudahtt/controllers/pull/863))
+- Revert "[CHANGED] - Testnet Ticker format update <network name>ETH (#856)" ([#856](https://github.com/Gudahtt/controllers/pull/856))
+- [CHANGED] - Testnet Ticker format update <network name>ETH ([#856](https://github.com/Gudahtt/controllers/pull/856))
+- 30.1.0 ([#866](https://github.com/Gudahtt/controllers/pull/866))
+- Making preventPollingOnNetworkRestart optional in TokenListController ([#865](https://github.com/Gudahtt/controllers/pull/865))
+- Migrate from Yarn v1 to Yarn v3 ([#846](https://github.com/Gudahtt/controllers/pull/846))
+- 30.0.2 ([#857](https://github.com/Gudahtt/controllers/pull/857))
+- 30.0.1 ([#854](https://github.com/Gudahtt/controllers/pull/854))
+- 30.0.0 ([#848](https://github.com/Gudahtt/controllers/pull/848))
+- Make `onCollectibleAdded` parameter optional ([#850](https://github.com/Gudahtt/controllers/pull/850))
+- Refactor `CollectibleController` tests ([#849](https://github.com/Gudahtt/controllers/pull/849))
+- Bump @metamask/contract-metadata from 1.34.0 to 1.35.0 ([#839](https://github.com/Gudahtt/controllers/pull/839))
+- Add dry run publish just before actual publish ([#842](https://github.com/Gudahtt/controllers/pull/842))
+- Bump @metamask/auto-changelog from 2.5.0 to 2.6.0 ([#833](https://github.com/Gudahtt/controllers/pull/833))
+- Revert "Revert "[Token Detection V2] 1 of 7 - Throw on failure for fetchTokenMetadata in token service (#812)" (#824)" ([#812](https://github.com/Gudahtt/controllers/pull/812))
+- Bump @metamask/contract-metadata from 1.33.0 to 1.34.0 ([#821](https://github.com/Gudahtt/controllers/pull/821))
+- 29.0.1 ([#825](https://github.com/Gudahtt/controllers/pull/825))
+- Revert "[Token Detection V2] 1 of 7 - Throw on failure for fetchTokenMetadata in token service (#812)" ([#812](https://github.com/Gudahtt/controllers/pull/812))
+- Add utils to format token list tokens for aggregators and icon url. ([#810](https://github.com/Gudahtt/controllers/pull/810))
+- [Token Detection V2] 1 of 7 - Throw on failure for fetchTokenMetadata in token service ([#812](https://github.com/Gudahtt/controllers/pull/812))
+- Bump cross-fetch from 2.2.3 to 2.2.6 ([#817](https://github.com/Gudahtt/controllers/pull/817))
+- 29.0.0 ([#813](https://github.com/Gudahtt/controllers/pull/813))
+- export NotificationController and fix types ([#815](https://github.com/Gudahtt/controllers/pull/815))
+- KeyringController: improve unit test coverage ([#693](https://github.com/Gudahtt/controllers/pull/693))
+- Update to TypeScript v4.6 ([#804](https://github.com/Gudahtt/controllers/pull/804))
+- Update TypeScript to v4.5 ([#803](https://github.com/Gudahtt/controllers/pull/803))
+- Update TypeScript to v4.4 ([#795](https://github.com/Gudahtt/controllers/pull/795))
+- Call `sinon.restore()` after each test using sinon ([#789](https://github.com/Gudahtt/controllers/pull/789))
+- Remove sinon sandboxes ([#788](https://github.com/Gudahtt/controllers/pull/788))
+- Enable `restoreMocks` Jest setting ([#794](https://github.com/Gudahtt/controllers/pull/794))
+- Fix the capitalization on two describe blocks ([#791](https://github.com/Gudahtt/controllers/pull/791))
+- Remove unused `retry` parameter from `safelyExecute` ([#787](https://github.com/Gudahtt/controllers/pull/787))
+- Replace WeakMap with private fields ([#786](https://github.com/Gudahtt/controllers/pull/786))
+- Add `override` keyword ([#785](https://github.com/Gudahtt/controllers/pull/785))
+- Update to TypeScript v4.3 ([#784](https://github.com/Gudahtt/controllers/pull/784))
+- Update typedoc to v0.22.15 ([#782](https://github.com/Gudahtt/controllers/pull/782))
+- Update `prettier` and related packages ([#783](https://github.com/Gudahtt/controllers/pull/783))
+- 28.0.0 ([#781](https://github.com/Gudahtt/controllers/pull/781))
+- Update publish instructions ([#779](https://github.com/Gudahtt/controllers/pull/779))
+- Use `github.sha` for publish jobs ([#776](https://github.com/Gudahtt/controllers/pull/776))
+- Fix typo in TransactionController.ts ([#775](https://github.com/Gudahtt/controllers/pull/775))
+- Add npm publish ([#737](https://github.com/Gudahtt/controllers/pull/737))
+- @lavamoat/allow-scripts@2.0.2 ([#766](https://github.com/Gudahtt/controllers/pull/766))
+- Fix inclusion of module-augmenting .d.ts's ([#761](https://github.com/Gudahtt/controllers/pull/761))
+- Improve support for backfilling types via .d.ts's ([#732](https://github.com/Gudahtt/controllers/pull/732))
+- Copy .gitattributes from template repo ([#760](https://github.com/Gudahtt/controllers/pull/760))
+- 27.1.1 ([#759](https://github.com/Gudahtt/controllers/pull/759))
+- 27.1.0 ([#755](https://github.com/Gudahtt/controllers/pull/755))
+- Bump minimist from 1.2.5 to 1.2.6 ([#752](https://github.com/Gudahtt/controllers/pull/752))
+- 27.0.0 ([#727](https://github.com/Gudahtt/controllers/pull/727))
+- 26.0.0 ([#711](https://github.com/Gudahtt/controllers/pull/711))
+- Fix coverage glob ([#714](https://github.com/Gudahtt/controllers/pull/714))
+- Disable redundant tsconfig rules ([#695](https://github.com/Gudahtt/controllers/pull/695))
+- Bump ajv from 6.10.2 to 6.12.6 ([#690](https://github.com/Gudahtt/controllers/pull/690))
+- 25.1.0 ([#679](https://github.com/Gudahtt/controllers/pull/679))
+- Bump nanoid from 3.1.12 to 3.1.31 ([#677](https://github.com/Gudahtt/controllers/pull/677))
+- Bump shelljs from 0.8.4 to 0.8.5 ([#675](https://github.com/Gudahtt/controllers/pull/675))
+- Fix typo in fetchBlockFeeHistory.ts ([#676](https://github.com/Gudahtt/controllers/pull/676))
+- 25.0.0 ([#673](https://github.com/Gudahtt/controllers/pull/673))
+- 24.0.0 ([#671](https://github.com/Gudahtt/controllers/pull/671))
+- 23.1.0 ([#670](https://github.com/Gudahtt/controllers/pull/670))
+- Update ABIs module ([#633](https://github.com/Gudahtt/controllers/pull/633))
+- 23.0.0 ([#668](https://github.com/Gudahtt/controllers/pull/668))
+- add updateNestedCollectibleState to clean up redundant nested state update logic ([#665](https://github.com/Gudahtt/controllers/pull/665))
+- Use stripHexPrefix from ethereumjs-util and ditch ethjs-util ([#663](https://github.com/Gudahtt/controllers/pull/663))
+- Refactor EIP-1559 v2 fallback code to ease expansion ([#640](https://github.com/Gudahtt/controllers/pull/640))
+- Extract determineGasFeeCalculations ([#612](https://github.com/Gudahtt/controllers/pull/612))
+- 22.0.0 ([#659](https://github.com/Gudahtt/controllers/pull/659))
+- 22.0.0 ([#654](https://github.com/Gudahtt/controllers/pull/654))
+- ensure valid ipfsGateWay format for retrieiving ipfs assets ([#652](https://github.com/Gudahtt/controllers/pull/652))
+- 21.0.1 ([#649](https://github.com/Gudahtt/controllers/pull/649))
+- 21.0.0 ([#647](https://github.com/Gudahtt/controllers/pull/647))
+- Bump @metamask/contract-metadata from 1.30.0 to 1.31.0 ([#634](https://github.com/Gudahtt/controllers/pull/634))
+- 20.1.0 ([#641](https://github.com/Gudahtt/controllers/pull/641))
+- 20.0.0 ([#631](https://github.com/Gudahtt/controllers/pull/631))
+- Refactor and backfill GasFeeController tests ([#618](https://github.com/Gudahtt/controllers/pull/618))
+- update Changelog.md ([#627](https://github.com/Gudahtt/controllers/pull/627))
+- 19.0.0 ([#626](https://github.com/Gudahtt/controllers/pull/626))
+- 18.0.0 ([#622](https://github.com/Gudahtt/controllers/pull/622))
+- Allow JSDoc descriptions to end with list of links ([#617](https://github.com/Gudahtt/controllers/pull/617))
+- Update ESLint config to v9 (JSDoc linting) ([#591](https://github.com/Gudahtt/controllers/pull/591))
+- Remove unnecessary return statements ([#606](https://github.com/Gudahtt/controllers/pull/606))
+- Remove redundant ESLint rule ([#604](https://github.com/Gudahtt/controllers/pull/604))
+- Update ESLint config from v7 to v8 ([#603](https://github.com/Gudahtt/controllers/pull/603))
+- Fix return type of `fetchGasFeeEstimates` ([#602](https://github.com/Gudahtt/controllers/pull/602))
+- 17.0.0 ([#601](https://github.com/Gudahtt/controllers/pull/601))
+- Bump tmpl from 1.0.4 to 1.0.5 ([#599](https://github.com/Gudahtt/controllers/pull/599))
+- 16.0.0 ([#596](https://github.com/Gudahtt/controllers/pull/596))
+- 15.1.0 ([#583](https://github.com/Gudahtt/controllers/pull/583))
+- 15.0.2 ([#580](https://github.com/Gudahtt/controllers/pull/580))
+- 15.0.1 ([#577](https://github.com/Gudahtt/controllers/pull/577))
+- Bump tar from 6.1.4 to 6.1.11 ([#576](https://github.com/Gudahtt/controllers/pull/576))
+- 15.0.0 ([#573](https://github.com/Gudahtt/controllers/pull/573))
+- Move controller messenger type demonstration to its own test suite ([#565](https://github.com/Gudahtt/controllers/pull/565))
+- ADDED: pull request template ([#562](https://github.com/Gudahtt/controllers/pull/562))
+- 14.2.0 ([#557](https://github.com/Gudahtt/controllers/pull/557))
+- Bump path-parse from 1.0.6 to 1.0.7 ([#558](https://github.com/Gudahtt/controllers/pull/558))
+- 14.1.0 ([#553](https://github.com/Gudahtt/controllers/pull/553))
+- Bump tar from 6.1.0 to 6.1.4 ([#552](https://github.com/Gudahtt/controllers/pull/552))
+- Bump @metamask/auto-changelog from 2.4.0 to 2.5.0 ([#549](https://github.com/Gudahtt/controllers/pull/549))
+- Update Changelog ([#548](https://github.com/Gudahtt/controllers/pull/548))
+- 14.0.2 ([#547](https://github.com/Gudahtt/controllers/pull/547))
+- Release/14.0.1 ([#545](https://github.com/Gudahtt/controllers/pull/545))
+- 14.0.0 ([#539](https://github.com/Gudahtt/controllers/pull/539))
+- Remove uneccessary calls to Collection.set in contoller messenger ([#532](https://github.com/Gudahtt/controllers/pull/532))
+- 13.2.0 ([#533](https://github.com/Gudahtt/controllers/pull/533))
+- 13.1.0 ([#531](https://github.com/Gudahtt/controllers/pull/531))
+- Add `prettier-plugin-packagejson` ([#523](https://github.com/Gudahtt/controllers/pull/523))
+- Add release automation ([#522](https://github.com/Gudahtt/controllers/pull/522))
+- v13.0.0 release ([#520](https://github.com/Gudahtt/controllers/pull/520))
+- Release/v12.1.0 ([#519](https://github.com/Gudahtt/controllers/pull/519))
+- Update ESLint config to v7 ([#502](https://github.com/Gudahtt/controllers/pull/502))
+- Add changelog validation to CI ([#511](https://github.com/Gudahtt/controllers/pull/511))
+- v12.0.0 release ([#515](https://github.com/Gudahtt/controllers/pull/515))
+- v11.0.0 release ([#510](https://github.com/Gudahtt/controllers/pull/510))
+- v10.2.0 ([#503](https://github.com/Gudahtt/controllers/pull/503))
+- Bump @metamask/auto-changelog from 2.3.0 to 2.4.0 ([#499](https://github.com/Gudahtt/controllers/pull/499))
+- Standardize repository ([#486](https://github.com/Gudahtt/controllers/pull/486))
+- Bump ws from 5.2.2 to 5.2.3 ([#491](https://github.com/Gudahtt/controllers/pull/491))
+- Bump glob-parent from 5.1.1 to 5.1.2 ([#490](https://github.com/Gudahtt/controllers/pull/490))
+- v10.1.0 ([#488](https://github.com/Gudahtt/controllers/pull/488))
+- Update publishing instructions in readme ([#485](https://github.com/Gudahtt/controllers/pull/485))
+- Bump @metamask/auto-changelog from 2.1.0 to 2.3.0 ([#484](https://github.com/Gudahtt/controllers/pull/484))
+- v10.0.0 ([#477](https://github.com/Gudahtt/controllers/pull/477))
+- Bump @metamask/auto-changelog from 2.0.1 to 2.1.0 ([#475](https://github.com/Gudahtt/controllers/pull/475))
+- v9.1.0 ([#474](https://github.com/Gudahtt/controllers/pull/474))
+- Bump @metamask/auto-changelog from 1.0.0 to 2.0.1 ([#470](https://github.com/Gudahtt/controllers/pull/470))
+- v9.0.0 ([#469](https://github.com/Gudahtt/controllers/pull/469))
+- Normalize CHANGELOG format ([#468](https://github.com/Gudahtt/controllers/pull/468))
+- Bump hosted-git-info from 2.8.8 to 2.8.9 ([#464](https://github.com/Gudahtt/controllers/pull/464))
+- Bump lodash from 4.17.19 to 4.17.21 ([#463](https://github.com/Gudahtt/controllers/pull/463))
+- Restore ComposableController compatibility between different BaseControllers ([#458](https://github.com/Gudahtt/controllers/pull/458))
+- Remove redundant type constraint in BaseControllerV2 ([#453](https://github.com/Gudahtt/controllers/pull/453))
+- Remove ineffectual `| never` type unions ([#452](https://github.com/Gudahtt/controllers/pull/452))
+- Remove jest/no-restricted-matchers exceptions ([#451](https://github.com/Gudahtt/controllers/pull/451))
+- Enable jest/no-conditional-expect ([#449](https://github.com/Gudahtt/controllers/pull/449))
+- Enable jest/no-test-return-statement ([#450](https://github.com/Gudahtt/controllers/pull/450))
+- Simplify BaseControllerV2 tests ([#448](https://github.com/Gudahtt/controllers/pull/448))
+- Optional AllowedEvents/AllowedActions ([#446](https://github.com/Gudahtt/controllers/pull/446))
+- v8.0.0 ([#443](https://github.com/Gudahtt/controllers/pull/443))
+- Fix typo in internal ControllerMessenger type ([#445](https://github.com/Gudahtt/controllers/pull/445))
+- v7.0.0 ([#438](https://github.com/Gudahtt/controllers/pull/438))
+- Bump y18n from 4.0.0 to 4.0.1 ([#437](https://github.com/Gudahtt/controllers/pull/437))
+- Add comment to explain why `camelcase` is disabled ([#432](https://github.com/Gudahtt/controllers/pull/432))
+- v6.2.1 ([#429](https://github.com/Gudahtt/controllers/pull/429))
+- v6.2.0 ([#427](https://github.com/Gudahtt/controllers/pull/427))
+- Use exception helpers instead of try catch  ([#425](https://github.com/Gudahtt/controllers/pull/425))
+- await promises rather than return them ([#424](https://github.com/Gudahtt/controllers/pull/424))
+- Move Notification controller unit tests ([#418](https://github.com/Gudahtt/controllers/pull/418))
+- Remove Lint Rule "no-prototype-builtins" ([#421](https://github.com/Gudahtt/controllers/pull/421))
+- Resolve Jest "expect-expect" lint rule ([#420](https://github.com/Gudahtt/controllers/pull/420))
+- Re-enable `@typescript-eslint/no-non-null-assertion` ([#419](https://github.com/Gudahtt/controllers/pull/419))
+- remove lint rule: no-useless-escape ([#417](https://github.com/Gudahtt/controllers/pull/417))
+- Disallow using `require` for imports ([#405](https://github.com/Gudahtt/controllers/pull/405))
+- Re-enable `consistent-return` ESLint rule ([#412](https://github.com/Gudahtt/controllers/pull/412))
+- Re-enable `accessor-pairs` ESLint rule ([#410](https://github.com/Gudahtt/controllers/pull/410))
+- Re-enable `default-case` ESLint rule ([#411](https://github.com/Gudahtt/controllers/pull/411))
+- Enable `esModuleInterop` ([#404](https://github.com/Gudahtt/controllers/pull/404))
+- Remove unnecessary ESLint rule override ([#408](https://github.com/Gudahtt/controllers/pull/408))
+- Re-enable the `@typescript-eslint/no-unused-vars` rule ([#407](https://github.com/Gudahtt/controllers/pull/407))
+- Prefer optional chain ([#409](https://github.com/Gudahtt/controllers/pull/409))
+- Only apply TypeScript lint rules to `.ts` files ([#396](https://github.com/Gudahtt/controllers/pull/396))
+- Import `async-mutex` using `import` ([#401](https://github.com/Gudahtt/controllers/pull/401))
+- Migrate mock encryptor to TypeScript ([#399](https://github.com/Gudahtt/controllers/pull/399))
+- Fix sinon types in ApprovalController tests ([#397](https://github.com/Gudahtt/controllers/pull/397))
+- Restore `@typescript-eslint/no-shadow` ESLint rule ([#394](https://github.com/Gudahtt/controllers/pull/394))
+- Import `jsonschema` using `import` ([#402](https://github.com/Gudahtt/controllers/pull/402))
+- Simplify `tsconfig.json` ([#390](https://github.com/Gudahtt/controllers/pull/390))
+- Remove unnecessary ESLint rules ([#393](https://github.com/Gudahtt/controllers/pull/393))
+- v6.1.1 ([#389](https://github.com/Gudahtt/controllers/pull/389))
+- v6.1.0 ([#384](https://github.com/Gudahtt/controllers/pull/384))
+- Add `docs` to list of ignored eslint patterns ([#345](https://github.com/Gudahtt/controllers/pull/345))
+- v6.0.1 ([#335](https://github.com/Gudahtt/controllers/pull/335))
+- v6.0.0 ([#327](https://github.com/Gudahtt/controllers/pull/327))
+- 5.1.0 ([#319](https://github.com/Gudahtt/controllers/pull/319))
+- Bump highlight.js from 9.15.9 to 9.18.5 ([#316](https://github.com/Gudahtt/controllers/pull/316))
+- Delete logo, update readme ([#315](https://github.com/Gudahtt/controllers/pull/315))
+- Remove jsdom, fix lockfile ([#314](https://github.com/Gudahtt/controllers/pull/314))
+- doc - fix logo location due to primary branch name change
+- 5.0.0 ([#313](https://github.com/Gudahtt/controllers/pull/313))
+- Remove unused dependencies ([#310](https://github.com/Gudahtt/controllers/pull/310))
+- 4.2.0 ([#308](https://github.com/Gudahtt/controllers/pull/308))
+- 4.1.0 ([#305](https://github.com/Gudahtt/controllers/pull/305))
+- 4.0.2 ([#303](https://github.com/Gudahtt/controllers/pull/303))
+- 4.0.1 ([#301](https://github.com/Gudahtt/controllers/pull/301))
+- 4.0.0 ([#294](https://github.com/Gudahtt/controllers/pull/294))
+- Add eth-sig-util@3.0.0 ([#299](https://github.com/Gudahtt/controllers/pull/299))
+- eth-rpc-errors@4.0.0 ([#293](https://github.com/Gudahtt/controllers/pull/293))
+- Lint and format .js files ([#291](https://github.com/Gudahtt/controllers/pull/291))
+- 3.2.0 ([#290](https://github.com/Gudahtt/controllers/pull/290))
+- Fix Prettier commands ([#280](https://github.com/Gudahtt/controllers/pull/280))
+- 3.1.0 ([#285](https://github.com/Gudahtt/controllers/pull/285))
+- Use typescript@4.0.3 ([#279](https://github.com/Gudahtt/controllers/pull/279))
+
 ## [33.0.0]
 ### Added
 - Add clear function for NotificationController ([#943](https://github.com/MetaMask/controllers/pull/943))
@@ -724,83 +947,84 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Removed
 - Remove shapeshift controller (#209)
 
-[Unreleased]: https://github.com/MetaMask/controllers/compare/v33.0.0...HEAD
-[33.0.0]: https://github.com/MetaMask/controllers/compare/v32.0.2...v33.0.0
-[32.0.2]: https://github.com/MetaMask/controllers/compare/v32.0.1...v32.0.2
-[32.0.1]: https://github.com/MetaMask/controllers/compare/v32.0.0...v32.0.1
-[32.0.0]: https://github.com/MetaMask/controllers/compare/v31.2.0...v32.0.0
-[31.2.0]: https://github.com/MetaMask/controllers/compare/v31.1.0...v31.2.0
-[31.1.0]: https://github.com/MetaMask/controllers/compare/v31.0.0...v31.1.0
-[31.0.0]: https://github.com/MetaMask/controllers/compare/v30.3.0...v31.0.0
-[30.3.0]: https://github.com/MetaMask/controllers/compare/v30.2.0...v30.3.0
-[30.2.0]: https://github.com/MetaMask/controllers/compare/v30.1.0...v30.2.0
-[30.1.0]: https://github.com/MetaMask/controllers/compare/v30.0.2...v30.1.0
-[30.0.2]: https://github.com/MetaMask/controllers/compare/v30.0.1...v30.0.2
-[30.0.1]: https://github.com/MetaMask/controllers/compare/v30.0.0...v30.0.1
-[30.0.0]: https://github.com/MetaMask/controllers/compare/v29.0.1...v30.0.0
-[29.0.1]: https://github.com/MetaMask/controllers/compare/v29.0.0...v29.0.1
-[29.0.0]: https://github.com/MetaMask/controllers/compare/v28.0.0...v29.0.0
-[28.0.0]: https://github.com/MetaMask/controllers/compare/v27.1.1...v28.0.0
-[27.1.1]: https://github.com/MetaMask/controllers/compare/v27.1.0...v27.1.1
-[27.1.0]: https://github.com/MetaMask/controllers/compare/v27.0.0...v27.1.0
-[27.0.0]: https://github.com/MetaMask/controllers/compare/v26.0.0...v27.0.0
-[26.0.0]: https://github.com/MetaMask/controllers/compare/v25.1.0...v26.0.0
-[25.1.0]: https://github.com/MetaMask/controllers/compare/v25.0.0...v25.1.0
-[25.0.0]: https://github.com/MetaMask/controllers/compare/v24.0.0...v25.0.0
-[24.0.0]: https://github.com/MetaMask/controllers/compare/v23.1.0...v24.0.0
-[23.1.0]: https://github.com/MetaMask/controllers/compare/v23.0.0...v23.1.0
-[23.0.0]: https://github.com/MetaMask/controllers/compare/v22.0.0...v23.0.0
-[22.0.0]: https://github.com/MetaMask/controllers/compare/v21.0.1...v22.0.0
-[21.0.1]: https://github.com/MetaMask/controllers/compare/v21.0.0...v21.0.1
-[21.0.0]: https://github.com/MetaMask/controllers/compare/v20.1.0...v21.0.0
-[20.1.0]: https://github.com/MetaMask/controllers/compare/v20.0.0...v20.1.0
-[20.0.0]: https://github.com/MetaMask/controllers/compare/v19.0.0...v20.0.0
-[19.0.0]: https://github.com/MetaMask/controllers/compare/v18.0.0...v19.0.0
-[18.0.0]: https://github.com/MetaMask/controllers/compare/v17.0.0...v18.0.0
-[17.0.0]: https://github.com/MetaMask/controllers/compare/v16.0.0...v17.0.0
-[16.0.0]: https://github.com/MetaMask/controllers/compare/v15.1.0...v16.0.0
-[15.1.0]: https://github.com/MetaMask/controllers/compare/v15.0.2...v15.1.0
-[15.0.2]: https://github.com/MetaMask/controllers/compare/v15.0.1...v15.0.2
-[15.0.1]: https://github.com/MetaMask/controllers/compare/v15.0.0...v15.0.1
-[15.0.0]: https://github.com/MetaMask/controllers/compare/v14.2.0...v15.0.0
-[14.2.0]: https://github.com/MetaMask/controllers/compare/v14.1.0...v14.2.0
-[14.1.0]: https://github.com/MetaMask/controllers/compare/v14.0.2...v14.1.0
-[14.0.2]: https://github.com/MetaMask/controllers/compare/v14.0.1...v14.0.2
-[14.0.1]: https://github.com/MetaMask/controllers/compare/v14.0.0...v14.0.1
-[14.0.0]: https://github.com/MetaMask/controllers/compare/v13.2.0...v14.0.0
-[13.2.0]: https://github.com/MetaMask/controllers/compare/v13.1.0...v13.2.0
-[13.1.0]: https://github.com/MetaMask/controllers/compare/v13.0.0...v13.1.0
-[13.0.0]: https://github.com/MetaMask/controllers/compare/v12.1.0...v13.0.0
-[12.1.0]: https://github.com/MetaMask/controllers/compare/v12.0.0...v12.1.0
-[12.0.0]: https://github.com/MetaMask/controllers/compare/v11.0.0...v12.0.0
-[11.0.0]: https://github.com/MetaMask/controllers/compare/v10.2.0...v11.0.0
-[10.2.0]: https://github.com/MetaMask/controllers/compare/v10.1.0...v10.2.0
-[10.1.0]: https://github.com/MetaMask/controllers/compare/v10.0.0...v10.1.0
-[10.0.0]: https://github.com/MetaMask/controllers/compare/v9.1.0...v10.0.0
-[9.1.0]: https://github.com/MetaMask/controllers/compare/v9.0.0...v9.1.0
-[9.0.0]: https://github.com/MetaMask/controllers/compare/v8.0.0...v9.0.0
-[8.0.0]: https://github.com/MetaMask/controllers/compare/v7.0.0...v8.0.0
-[7.0.0]: https://github.com/MetaMask/controllers/compare/v6.2.1...v7.0.0
-[6.2.1]: https://github.com/MetaMask/controllers/compare/v6.2.0...v6.2.1
-[6.2.0]: https://github.com/MetaMask/controllers/compare/v6.1.1...v6.2.0
-[6.1.1]: https://github.com/MetaMask/controllers/compare/v6.1.0...v6.1.1
-[6.1.0]: https://github.com/MetaMask/controllers/compare/v6.0.1...v6.1.0
-[6.0.1]: https://github.com/MetaMask/controllers/compare/v6.0.0...v6.0.1
-[6.0.0]: https://github.com/MetaMask/controllers/compare/v5.1.0...v6.0.0
-[5.1.0]: https://github.com/MetaMask/controllers/compare/v5.0.0...v5.1.0
-[5.0.0]: https://github.com/MetaMask/controllers/compare/v4.2.0...v5.0.0
-[4.2.0]: https://github.com/MetaMask/controllers/compare/v4.1.0...v4.2.0
-[4.1.0]: https://github.com/MetaMask/controllers/compare/v4.0.2...v4.1.0
-[4.0.2]: https://github.com/MetaMask/controllers/compare/v4.0.1...v4.0.2
-[4.0.1]: https://github.com/MetaMask/controllers/compare/v4.0.0...v4.0.1
-[4.0.0]: https://github.com/MetaMask/controllers/compare/v3.2.0...v4.0.0
-[3.2.0]: https://github.com/MetaMask/controllers/compare/v3.1.0...v3.2.0
-[3.1.0]: https://github.com/MetaMask/controllers/compare/v3.0.1...v3.1.0
-[3.0.1]: https://github.com/MetaMask/controllers/compare/v3.0.0...v3.0.1
-[3.0.0]: https://github.com/MetaMask/controllers/compare/v2.0.5...v3.0.0
-[2.0.5]: https://github.com/MetaMask/controllers/compare/v2.0.4...v2.0.5
-[2.0.4]: https://github.com/MetaMask/controllers/compare/v2.0.3...v2.0.4
-[2.0.3]: https://github.com/MetaMask/controllers/compare/v2.0.2...v2.0.3
-[2.0.2]: https://github.com/MetaMask/controllers/compare/v2.0.1...v2.0.2
-[2.0.1]: https://github.com/MetaMask/controllers/compare/v2.0.0...v2.0.1
-[2.0.0]: https://github.com/MetaMask/controllers/releases/tag/v2.0.0
+[Unreleased]: https://github.com/Gudahtt/controllers/compare/v33.0.1...HEAD
+[33.0.1]: https://github.com/Gudahtt/controllers/compare/v33.0.0...v33.0.1
+[33.0.0]: https://github.com/Gudahtt/controllers/compare/v32.0.2...v33.0.0
+[32.0.2]: https://github.com/Gudahtt/controllers/compare/v32.0.1...v32.0.2
+[32.0.1]: https://github.com/Gudahtt/controllers/compare/v32.0.0...v32.0.1
+[32.0.0]: https://github.com/Gudahtt/controllers/compare/v31.2.0...v32.0.0
+[31.2.0]: https://github.com/Gudahtt/controllers/compare/v31.1.0...v31.2.0
+[31.1.0]: https://github.com/Gudahtt/controllers/compare/v31.0.0...v31.1.0
+[31.0.0]: https://github.com/Gudahtt/controllers/compare/v30.3.0...v31.0.0
+[30.3.0]: https://github.com/Gudahtt/controllers/compare/v30.2.0...v30.3.0
+[30.2.0]: https://github.com/Gudahtt/controllers/compare/v30.1.0...v30.2.0
+[30.1.0]: https://github.com/Gudahtt/controllers/compare/v30.0.2...v30.1.0
+[30.0.2]: https://github.com/Gudahtt/controllers/compare/v30.0.1...v30.0.2
+[30.0.1]: https://github.com/Gudahtt/controllers/compare/v30.0.0...v30.0.1
+[30.0.0]: https://github.com/Gudahtt/controllers/compare/v29.0.1...v30.0.0
+[29.0.1]: https://github.com/Gudahtt/controllers/compare/v29.0.0...v29.0.1
+[29.0.0]: https://github.com/Gudahtt/controllers/compare/v28.0.0...v29.0.0
+[28.0.0]: https://github.com/Gudahtt/controllers/compare/v27.1.1...v28.0.0
+[27.1.1]: https://github.com/Gudahtt/controllers/compare/v27.1.0...v27.1.1
+[27.1.0]: https://github.com/Gudahtt/controllers/compare/v27.0.0...v27.1.0
+[27.0.0]: https://github.com/Gudahtt/controllers/compare/v26.0.0...v27.0.0
+[26.0.0]: https://github.com/Gudahtt/controllers/compare/v25.1.0...v26.0.0
+[25.1.0]: https://github.com/Gudahtt/controllers/compare/v25.0.0...v25.1.0
+[25.0.0]: https://github.com/Gudahtt/controllers/compare/v24.0.0...v25.0.0
+[24.0.0]: https://github.com/Gudahtt/controllers/compare/v23.1.0...v24.0.0
+[23.1.0]: https://github.com/Gudahtt/controllers/compare/v23.0.0...v23.1.0
+[23.0.0]: https://github.com/Gudahtt/controllers/compare/v22.0.0...v23.0.0
+[22.0.0]: https://github.com/Gudahtt/controllers/compare/v21.0.1...v22.0.0
+[21.0.1]: https://github.com/Gudahtt/controllers/compare/v21.0.0...v21.0.1
+[21.0.0]: https://github.com/Gudahtt/controllers/compare/v20.1.0...v21.0.0
+[20.1.0]: https://github.com/Gudahtt/controllers/compare/v20.0.0...v20.1.0
+[20.0.0]: https://github.com/Gudahtt/controllers/compare/v19.0.0...v20.0.0
+[19.0.0]: https://github.com/Gudahtt/controllers/compare/v18.0.0...v19.0.0
+[18.0.0]: https://github.com/Gudahtt/controllers/compare/v17.0.0...v18.0.0
+[17.0.0]: https://github.com/Gudahtt/controllers/compare/v16.0.0...v17.0.0
+[16.0.0]: https://github.com/Gudahtt/controllers/compare/v15.1.0...v16.0.0
+[15.1.0]: https://github.com/Gudahtt/controllers/compare/v15.0.2...v15.1.0
+[15.0.2]: https://github.com/Gudahtt/controllers/compare/v15.0.1...v15.0.2
+[15.0.1]: https://github.com/Gudahtt/controllers/compare/v15.0.0...v15.0.1
+[15.0.0]: https://github.com/Gudahtt/controllers/compare/v14.2.0...v15.0.0
+[14.2.0]: https://github.com/Gudahtt/controllers/compare/v14.1.0...v14.2.0
+[14.1.0]: https://github.com/Gudahtt/controllers/compare/v14.0.2...v14.1.0
+[14.0.2]: https://github.com/Gudahtt/controllers/compare/v14.0.1...v14.0.2
+[14.0.1]: https://github.com/Gudahtt/controllers/compare/v14.0.0...v14.0.1
+[14.0.0]: https://github.com/Gudahtt/controllers/compare/v13.2.0...v14.0.0
+[13.2.0]: https://github.com/Gudahtt/controllers/compare/v13.1.0...v13.2.0
+[13.1.0]: https://github.com/Gudahtt/controllers/compare/v13.0.0...v13.1.0
+[13.0.0]: https://github.com/Gudahtt/controllers/compare/v12.1.0...v13.0.0
+[12.1.0]: https://github.com/Gudahtt/controllers/compare/v12.0.0...v12.1.0
+[12.0.0]: https://github.com/Gudahtt/controllers/compare/v11.0.0...v12.0.0
+[11.0.0]: https://github.com/Gudahtt/controllers/compare/v10.2.0...v11.0.0
+[10.2.0]: https://github.com/Gudahtt/controllers/compare/v10.1.0...v10.2.0
+[10.1.0]: https://github.com/Gudahtt/controllers/compare/v10.0.0...v10.1.0
+[10.0.0]: https://github.com/Gudahtt/controllers/compare/v9.1.0...v10.0.0
+[9.1.0]: https://github.com/Gudahtt/controllers/compare/v9.0.0...v9.1.0
+[9.0.0]: https://github.com/Gudahtt/controllers/compare/v8.0.0...v9.0.0
+[8.0.0]: https://github.com/Gudahtt/controllers/compare/v7.0.0...v8.0.0
+[7.0.0]: https://github.com/Gudahtt/controllers/compare/v6.2.1...v7.0.0
+[6.2.1]: https://github.com/Gudahtt/controllers/compare/v6.2.0...v6.2.1
+[6.2.0]: https://github.com/Gudahtt/controllers/compare/v6.1.1...v6.2.0
+[6.1.1]: https://github.com/Gudahtt/controllers/compare/v6.1.0...v6.1.1
+[6.1.0]: https://github.com/Gudahtt/controllers/compare/v6.0.1...v6.1.0
+[6.0.1]: https://github.com/Gudahtt/controllers/compare/v6.0.0...v6.0.1
+[6.0.0]: https://github.com/Gudahtt/controllers/compare/v5.1.0...v6.0.0
+[5.1.0]: https://github.com/Gudahtt/controllers/compare/v5.0.0...v5.1.0
+[5.0.0]: https://github.com/Gudahtt/controllers/compare/v4.2.0...v5.0.0
+[4.2.0]: https://github.com/Gudahtt/controllers/compare/v4.1.0...v4.2.0
+[4.1.0]: https://github.com/Gudahtt/controllers/compare/v4.0.2...v4.1.0
+[4.0.2]: https://github.com/Gudahtt/controllers/compare/v4.0.1...v4.0.2
+[4.0.1]: https://github.com/Gudahtt/controllers/compare/v4.0.0...v4.0.1
+[4.0.0]: https://github.com/Gudahtt/controllers/compare/v3.2.0...v4.0.0
+[3.2.0]: https://github.com/Gudahtt/controllers/compare/v3.1.0...v3.2.0
+[3.1.0]: https://github.com/Gudahtt/controllers/compare/v3.0.1...v3.1.0
+[3.0.1]: https://github.com/Gudahtt/controllers/compare/v3.0.0...v3.0.1
+[3.0.0]: https://github.com/Gudahtt/controllers/compare/v2.0.5...v3.0.0
+[2.0.5]: https://github.com/Gudahtt/controllers/compare/v2.0.4...v2.0.5
+[2.0.4]: https://github.com/Gudahtt/controllers/compare/v2.0.3...v2.0.4
+[2.0.3]: https://github.com/Gudahtt/controllers/compare/v2.0.2...v2.0.3
+[2.0.2]: https://github.com/Gudahtt/controllers/compare/v2.0.1...v2.0.2
+[2.0.1]: https://github.com/Gudahtt/controllers/compare/v2.0.0...v2.0.1
+[2.0.0]: https://github.com/Gudahtt/controllers/releases/tag/v2.0.0
