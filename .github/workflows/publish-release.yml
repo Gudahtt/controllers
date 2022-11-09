@@ -72,7 +72,7 @@ jobs:
           key: ${{ github.sha }}
       - name: Dry Run Publish
         # omit npm-token token to perform dry run publish
-        uses: MetaMask/action-npm-publish@a631ae55860a80431b99d547395827ca6015e6c7
+        uses: MetaMask/action-npm-publish@adf16f16aafc8d551236dd0bf2a189397b349917
         env:
           SKIP_PREPACK: true
 
@@ -92,7 +92,7 @@ jobs:
             ./node_modules/.yarn-state.yml
           key: ${{ github.sha }}
       - name: Publish
-        uses: MetaMask/action-npm-publish@a631ae55860a80431b99d547395827ca6015e6c7
+        uses: MetaMask/action-npm-publish@adf16f16aafc8d551236dd0bf2a189397b349917
         with:
           npm-token: ${{ secrets.NPM_TOKEN }}
         env:
