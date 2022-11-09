@@ -6,6 +6,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [33.0.2]
+### Changed
+- update
+
 ## [33.0.1]
 ### Changed
 - test
@@ -728,7 +732,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Removed
 - Remove shapeshift controller (#209)
 
-[Unreleased]: https://github.com/MetaMask/controllers/compare/v33.0.1...HEAD
+[Unreleased]: https://github.com/MetaMask/controllers/compare/v33.0.2...HEAD
+[33.0.2]: https://github.com/MetaMask/controllers/compare/v33.0.1...v33.0.2
 [33.0.1]: https://github.com/MetaMask/controllers/compare/v33.0.0...v33.0.1
 [33.0.0]: https://github.com/MetaMask/controllers/compare/v32.0.2...v33.0.0
 [32.0.2]: https://github.com/MetaMask/controllers/compare/v32.0.1...v32.0.2
