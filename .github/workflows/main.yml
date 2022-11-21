@@ -10,6 +10,9 @@ jobs:
     name: Check workflows
     runs-on: ubuntu-latest
     steps:
+      - run: echo "$EVENT" | jq --color-output .
+        env:
+          EVENT: ${{ toJSON(github.event) }}
       - uses: actions/checkout@v3
       - name: Download actionlint
         id: download-actionlint
